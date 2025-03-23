@@ -69,7 +69,7 @@ def place_order(menu):
             continue
         # TODO: Ask the customer if they would like to order anything else
         # TODO: Let the customer know if they should type 'n' or 'N' to quit
-        more = input("Would you like to order another item?  (Enter 'n' or 'N' to quit)")
+        more = input(f"Would you like to order another item? \n(Press Enter to Continue)\n(Enter 'n' or 'N' to quit and submit your order)")
 
         # TODO: Write a conditional statement that checks the user's input
         # TODO: The conditional statement should check for 'n' or 'N'
